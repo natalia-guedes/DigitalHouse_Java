@@ -1,0 +1,12 @@
+package Dolar;
+
+public class Conversao {
+	
+	public static double preco;
+
+	public static double converter(double valor) {
+		
+		return (valor * preco * 1.06);
+	}
+
+}

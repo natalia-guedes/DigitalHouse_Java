@@ -1,0 +1,14 @@
+package exercicios;
+
+public class Main {
+	public static void main (String[]args) {
+		
+		//System.out.println("Olá mundo");
+		
+		int idade = 18;
+		String nome ="Natalia";
+		
+		System.out.println(nome+" tem "+idade+" anos de idade");
+
+	}
+}

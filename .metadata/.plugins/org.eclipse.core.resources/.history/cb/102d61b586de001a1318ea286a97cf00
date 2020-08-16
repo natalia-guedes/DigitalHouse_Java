@@ -1,0 +1,14 @@
+package geometria;
+
+public class Circunferencia {
+	
+	public double calcularCircunferencia(double raio) {
+		
+		return (2*raio*Math.PI);
+	}
+	public double calcularVolume(double raio) {
+		
+		return ((4 * Math.PI * Math.pow(raio, 3) ) / 3);
+	}
+
+}

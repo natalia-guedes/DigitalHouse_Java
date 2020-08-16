@@ -1,0 +1,28 @@
+package Peincipal;
+
+import java.util.Scanner;
+
+import Geometria.Retangulo;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		Retangulo x= new Retangulo();
+	
+		
+		System.out.println("Digite a altura e largura do retângulo: ");
+		x.ladoA= sc.nextDouble();
+		x.ladoB= sc.nextDouble();
+
+	
+		System.out.println("Área = "+ x.calcularArea());
+		System.out.println("Perimetro = "+ x.calcularPerimetro());
+		System.out.println("Diagonal = "+ x.calcularDiagonal());
+		
+		sc.close();
+
+	}
+
+}

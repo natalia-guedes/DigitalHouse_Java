@@ -1,0 +1,31 @@
+package principal;
+
+import java.util.Scanner;
+
+import Geometria.Retangulo;
+import notas.Estudante;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		Estudante x= new Estudante();
+	
+		
+		System.out.println("Entre com o nome do aluno: ");
+		x.nome= sc.next();
+		System.out.println("Entre com a nota 1: ");
+		x.nota1= sc.nextDouble();
+		System.out.println("Entre com a nota 2: ");
+		x.nota2= sc.nextDouble();
+		System.out.println("Entre com a nota 3: ");
+		x.nota3= sc.nextDouble();
+		System.out.println("Nota final: "+ x.notaFinal());
+		x.passou();
+
+
+	}
+
+}

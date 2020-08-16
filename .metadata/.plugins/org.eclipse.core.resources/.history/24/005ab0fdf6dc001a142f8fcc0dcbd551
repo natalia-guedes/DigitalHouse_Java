@@ -1,0 +1,24 @@
+package Produto;
+
+public class produto {
+
+	public String nome;
+	public double preco;
+	public int quantidade;
+	
+	public double total() {
+		
+		return preco * quantidade;
+	}
+	
+	public void retirada(int n) {
+		this.quantidade= quantidade -
+		 
+	}
+
+	public void adicionar(int n) {
+	
+	return preco * quantidade;
+}
+	
+}

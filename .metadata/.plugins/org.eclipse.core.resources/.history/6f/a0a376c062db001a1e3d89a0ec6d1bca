@@ -1,0 +1,28 @@
+package exercicios;
+
+public class Main {
+	public static void main (String[]args) {
+		
+		//System.out.println("Olá mundo");
+		
+		int idade = 15;
+		String nome ="Natalia";
+		double nota = 10.5;
+		char letra= 'a';
+		
+		
+		//System.out.println(nome+" tem "+idade+" anos de idade");
+		
+		// >,<.>=.<=,!=
+		//&&, ||, !
+		//if( !((idade >= 16) && (idade <= 18))) {
+		//	System.out.println(nome+" pode votar mas não é obrigatório");
+		//}else {
+		//	System.out.println(nome+ " é menor de idade");
+		//}
+		
+		for (int i = 0; i<=10;i++) {
+			System.out.println("8 x "+i+" = "+8*i);
+		}
+	}
+}

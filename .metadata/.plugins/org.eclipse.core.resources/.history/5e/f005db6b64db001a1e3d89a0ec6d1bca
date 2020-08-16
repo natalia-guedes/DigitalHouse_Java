@@ -1,0 +1,49 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main (String[]args) {
+		
+		//System.out.println("Olá mundo");
+		
+		int idade = 15;
+		String nome ="Natalia";
+		double nota = 10.5;
+		char letra= 'a';
+		
+		
+		//System.out.println(nome+" tem "+idade+" anos de idade");
+		
+		// >,<.>=.<=,!=
+		//&&, ||, !
+		//if( !((idade >= 16) && (idade <= 18))) {
+		//	System.out.println(nome+" pode votar mas não é obrigatório");
+		//}else {
+		//	System.out.println(nome+ " é menor de idade");
+		//}
+		
+		//for (int i = 0; i<=10;i++) {
+		//	System.out.println("8 x "+i+" = "+8*i);
+		//}
+		
+	//	int i=0;
+		
+	//	while(i<=10) {
+		//	System.out.println("8 x "+i+" = "+8*i);
+			//i++;
+		//}
+		
+		int op = 0;
+		Scanner sc= new Scanner(System.in);
+		do {
+			System.out.println("ESCOLHA UMA OPÇÃO");
+			System.out.println("1- SOMAR");
+			System.out.println("2- SUBTRAIR");
+			System.out.println("3- MULTIPLICAR");
+			System.out.println("4- DIVIDAR");
+			System.out.println("5- SSAIR");
+			op = sc.nextInt();
+		}while (op != 5);
+	}
+}

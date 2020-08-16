@@ -1,0 +1,92 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main (String[]args) {
+		
+		//System.out.println("Olá mundo");
+		
+		int idade = 15;
+		String nome ="Natalia";
+		double nota = 10.5;
+		char letra= 'a';
+		
+		
+		//System.out.println(nome+" tem "+idade+" anos de idade");
+		
+		// >,<.>=.<=,!=
+		//&&, ||, !
+		//if( !((idade >= 16) && (idade <= 18))) {
+		//	System.out.println(nome+" pode votar mas não é obrigatório");
+		//}else {
+		//	System.out.println(nome+ " é menor de idade");
+		//}
+		
+		//for (int i = 0; i<=10;i++) {
+		//	System.out.println("8 x "+i+" = "+8*i);
+		//}
+		
+	//	int i=0;
+		
+	//	while(i<=10) {
+		//	System.out.println("8 x "+i+" = "+8*i);
+			//i++;
+		//}
+		
+		int op = 0, num1=0,num2=0;
+		Scanner sc= new Scanner(System.in);
+		do {
+			menu();
+			op = sc.nextInt();
+			
+			if(op>0 && op <5 ) {
+				System.out.println("Digite um número: ");
+				num1 = sc.nextInt();
+				System.out.println("Digite um número: ");
+				num2 = sc.nextInt();
+			}
+			
+			switch(op) {
+				case 1: somar(num1, num2);
+					break;
+				case 2: subtrair(num1,num2);
+					break;
+				case 3: multiplicar(num1,num2);
+					break;
+				case 4: dividir(num1,num2);
+					break;
+				
+				case 5: System.out.println("Obrigada!");
+					break;
+				default: System.out.println("OPÇÃO INVÁLIDA");
+
+			}
+		}while (op != 5);
+	}
+	
+	public static void somar(int num1, int num2) {
+		System.out.println(num1+num2);
+	}
+	
+	public static void subtrair(int num1, int num2) {
+
+		System.out.println(num1-num2);
+	}
+	
+	public static void multiplicar(int num1, int num2) {
+		System.out.println(num1*num2);
+	}
+	
+	public static void dividir(int num1, int num2) {
+		System.out.println(num1/num2);
+	}
+	public static void menu() {
+		System.out.println("ESCOLHA UMA OPÇÃO");
+		System.out.println("1- SOMAR");
+		System.out.println("2- SUBTRAIR");
+		System.out.println("3- MULTIPLICAR");
+		System.out.println("4- DIVIDAR");
+		System.out.println("5- SAIR");
+	}
+}

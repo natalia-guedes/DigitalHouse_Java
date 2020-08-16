@@ -1,0 +1,25 @@
+package Main;
+
+import java.util.Scanner;
+
+import geometria.Circunferencia;
+
+
+public class main {
+	public static void main(String[] args) {
+Scanner sc = new Scanner (System.in);
+		
+		Circunferencia x= new Circunferencia();
+	
+		
+		System.out.println("Digite o raio: ");
+		x.raio= sc.nextDouble();
+	
+		System.out.println("Circunferencia = "+ x.calcularCircunferencia()));
+		System.out.println("Volume = "+ x.calcularVolume());
+		System.out.println("Pi = "+ Math.PI);
+		
+		sc.close();
+	}
+
+}
