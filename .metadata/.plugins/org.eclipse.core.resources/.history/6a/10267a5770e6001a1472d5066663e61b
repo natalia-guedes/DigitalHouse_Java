@@ -1,0 +1,12 @@
+package Comidas;
+
+import java.util.List;
+
+public class sanduiche {
+	private List <String> ingredientes;
+
+	public sanduiche() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

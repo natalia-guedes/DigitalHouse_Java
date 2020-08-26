@@ -1,0 +1,9 @@
+package Comidas;
+
+public class massa {
+
+	public massa() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

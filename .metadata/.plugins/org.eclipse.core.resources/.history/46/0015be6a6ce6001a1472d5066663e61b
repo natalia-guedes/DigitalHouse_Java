@@ -1,0 +1,9 @@
+package Comidas;
+
+public abstract class Lanche {
+
+	public Lanche() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

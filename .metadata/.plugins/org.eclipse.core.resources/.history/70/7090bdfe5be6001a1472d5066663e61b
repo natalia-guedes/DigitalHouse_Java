@@ -1,0 +1,9 @@
+package banco;
+
+public class Cheque {
+
+	public Cheque() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

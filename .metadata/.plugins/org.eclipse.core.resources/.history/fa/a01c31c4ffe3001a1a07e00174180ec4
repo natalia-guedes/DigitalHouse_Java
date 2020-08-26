@@ -1,0 +1,9 @@
+package animais;
+
+public class Papagaio extends Animal{
+
+	public Papagaio() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

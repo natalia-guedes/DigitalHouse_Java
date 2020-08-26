@@ -1,0 +1,21 @@
+package principal;
+
+import banco.ContaCorrente;
+import banco.ContaPoupanca;
+import banco.Contas;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Contas conta1 = new ContaCorrente(50, 200);
+		Contas conta2 = new ContaPoupanca(50, 0.1);
+		System.out.println("Conta:conta 1 n/Saldo:" + conta1.getSaldo());
+		System.out.println("Conta:conta 2 n/Saldo:" + conta2.getSaldo());
+		conta1.depositar(100);
+		conta2.depositar(100);
+		System.out.println("Conta:conta 1 n/Saldo:" + conta1.getSaldo());
+		System.out.println("Conta:conta 2 n/Saldo:" + conta2.getSaldo());
+		
+	}
+
+}

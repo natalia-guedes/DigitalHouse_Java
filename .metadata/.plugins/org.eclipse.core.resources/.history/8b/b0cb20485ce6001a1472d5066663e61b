@@ -1,0 +1,9 @@
+package banco;
+
+public class ContaCorrente extends Contas {
+
+	public ContaCorrente(Clientes cliente, Integer saldo) {
+		super(cliente, saldo);
+	}
+
+}

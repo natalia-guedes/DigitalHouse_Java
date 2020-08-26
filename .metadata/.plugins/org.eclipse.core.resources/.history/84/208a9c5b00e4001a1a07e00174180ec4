@@ -1,0 +1,9 @@
+package animais;
+
+public class Mamifero extends Animal{
+
+	public Mamifero() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

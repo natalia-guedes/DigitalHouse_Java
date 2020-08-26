@@ -1,0 +1,15 @@
+package Comidas;
+
+public enum TiposMassa {
+	
+	MACARRAO (1),
+	PIZZA(2),
+	LASANHA(3);
+	
+	private int descricao;
+
+    TiposMassa(String descricao) {
+        this.descricao = descricao;
+    }
+
+}

@@ -1,0 +1,9 @@
+package animais;
+
+public class Vaca {
+
+	public Vaca() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,11 @@
+package Comidas;
+
+public class massa {
+	protected String molho;
+
+	public massa(String molho) {
+		// TODO Auto-generated constructor stub
+	this.molho=molho;	
+	}
+
+}

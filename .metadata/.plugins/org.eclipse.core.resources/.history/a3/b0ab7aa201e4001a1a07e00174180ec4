@@ -1,0 +1,17 @@
+package Principal;
+
+import animais.Animal;
+import animais.Mamifero;
+
+public class main {
+
+	public static void main(String[] args) {
+		Animal a1 = new Animal();
+		Animal a2 = new Mamifero();
+		Animal a3 = new Passaro();
+		
+		
+
+	}
+
+}

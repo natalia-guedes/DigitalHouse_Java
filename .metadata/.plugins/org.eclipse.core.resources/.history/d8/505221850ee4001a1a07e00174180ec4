@@ -1,0 +1,8 @@
+package animais;
+
+public interface Bicho Implement Bicho{
+	
+	void correr();
+	Double litrosDeAgua();
+
+}

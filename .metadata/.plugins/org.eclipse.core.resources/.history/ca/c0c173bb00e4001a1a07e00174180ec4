@@ -1,0 +1,13 @@
+package animais;
+
+public class Passaro extends Animal{
+
+	public Passaro() {
+		super();
+	}
+	
+	public Passaro(String nome) {
+		super(nome);
+	}
+
+}

@@ -1,0 +1,37 @@
+package banco;
+
+public abstract class Contas {
+	private Clientes cliente;
+	private Integer saldo;
+
+	public Contas(Clientes cliente, Integer saldo) {
+		this.cliente=cliente;
+		this.saldo=saldo;
+	}
+
+	public Clientes getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Clientes cliente) {
+		this.cliente = cliente;
+	}
+
+	public Integer getSaldo() {
+		return saldo;
+	}
+	
+	
+	public void setSaldo(Integer saldo) {
+		this.saldo = saldo;
+	}
+
+	public abstract void sacar(Integer valor) ;
+	
+	public void depositar(Integer valor) {
+		this.saldo+=valor;
+	}
+
+	
+
+}

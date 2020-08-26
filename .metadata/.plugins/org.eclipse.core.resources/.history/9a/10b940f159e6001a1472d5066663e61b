@@ -1,0 +1,9 @@
+package banco;
+
+public class Contas {
+
+	public Contas() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

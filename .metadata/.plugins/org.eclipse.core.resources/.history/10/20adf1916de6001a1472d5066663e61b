@@ -1,0 +1,9 @@
+package Comidas;
+
+public class sanduiche {
+
+	public sanduiche() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

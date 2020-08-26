@@ -1,0 +1,9 @@
+package animais;
+
+public class Passaro {
+
+	public Passaro() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

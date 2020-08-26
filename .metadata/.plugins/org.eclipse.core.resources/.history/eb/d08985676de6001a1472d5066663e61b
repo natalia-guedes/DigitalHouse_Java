@@ -1,0 +1,13 @@
+package Comidas;
+
+public class bolo {
+
+	protected String massa;
+	protected String recheio;
+	protected String cobertura;
+	protected Integer tempo = 10;
+	public bolo(String massa, String recheio, String cobertura) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

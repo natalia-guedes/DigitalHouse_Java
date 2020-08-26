@@ -1,0 +1,9 @@
+package Comidas;
+
+public class bolo {
+
+	public bolo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,12 @@
+package Comidas;
+
+public abstract class Lanche {
+
+	protected Integer tempoEntrega = 10;
+	protected Double preco;
+	public Lanche(Double preco) {
+		// TODO Auto-generated constructor stub
+		this.preco=preco;
+	}
+
+}

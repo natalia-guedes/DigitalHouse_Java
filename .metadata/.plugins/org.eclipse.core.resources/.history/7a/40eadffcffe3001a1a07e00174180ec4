@@ -1,0 +1,9 @@
+package animais;
+
+public class Vaca extends Animal{
+
+	public Vaca() {
+		super();
+	}
+
+}

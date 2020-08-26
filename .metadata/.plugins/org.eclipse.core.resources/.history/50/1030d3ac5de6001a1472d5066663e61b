@@ -1,0 +1,22 @@
+package banco;
+
+public class ContaPoupanca extends Contas {
+	double taxa;
+
+	public ContaPoupanca(Clientes cliente, Integer saldo) {
+		super(cliente, saldo);
+	}
+
+	public double getTaxa() {
+		return taxa;
+	}
+
+	public void setTaxa(double taxa) {
+		this.taxa = taxa;
+	}
+	
+	public void recolherTaxa () {
+		
+	}
+
+}

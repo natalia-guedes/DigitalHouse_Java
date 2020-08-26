@@ -1,0 +1,13 @@
+package banco;
+
+public class ContaCorrente extends Contas {
+	
+	private double limite;
+	
+
+	public ContaCorrente(Clientes cliente, Integer saldo, double limite) {
+		super(cliente, saldo);
+		this.limite=limite;
+	}
+
+}

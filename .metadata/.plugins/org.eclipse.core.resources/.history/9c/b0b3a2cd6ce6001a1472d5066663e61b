@@ -1,0 +1,10 @@
+package Comidas;
+
+public abstract class Lanche {
+
+	protected Integer tempoEntrega = 10;
+	public Lanche() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

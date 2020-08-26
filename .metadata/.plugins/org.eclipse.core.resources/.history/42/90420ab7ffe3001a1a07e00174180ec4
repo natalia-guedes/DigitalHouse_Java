@@ -1,0 +1,9 @@
+package animais;
+
+public class BemTeVi extends Animal{
+
+	public BemTeVi() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
